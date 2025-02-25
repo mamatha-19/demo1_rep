@@ -11,13 +11,13 @@ pipeline{
     stage('build')
     {
       steps{
-        sh 'javac main1.java'
+        sh 'javac sri.java'
       }
     }
     stage('run')
     {
       steps{
-        sh 'java main1'
+        sh 'java sri'
       }
     }
   }
